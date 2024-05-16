@@ -4,7 +4,7 @@
 function daysUntilChristmas() {
     const today = new Date(); // Get the current date
     const currentYear = today.getFullYear(); // Get the current year
-    const christmas = new Date(currentYear, 11, 26); // Set date for Christmas (December 25th),  Month is 0-indexed (11 is December)
+    const christmas = new Date(currentYear, 11, 25); // Set date for Christmas (December 25th),  Month is 0-indexed (11 is December)
     //console.log(christmas); //2024-12-25T18:30:00.000Z
 
     // Check if Christmas has already passed this year
